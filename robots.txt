@@ -1,0 +1,18 @@
+User-agent: *
+Allow:/
+Allow: /index.html
+Allow: /stories/
+Disallow: /__MACOSX/
+Disallow: /Analytics/
+Disallow: /cgi-bin/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /germanramirez/
+Disallow: /img/
+Disallow: /js/
+Disallow: /how.html
+Disallow: /legalnotice.html
+Disallow: /mail.php
+Disallow: /whatwedo.html
+
+Sitemap: https://www.therelevancehouse.com/sitemap.xml
