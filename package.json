@@ -1,7 +1,7 @@
 {
-  "name": "first-version-trh",
+  "name": "test-website-trh",
   "version": "0.1.0",
-  "homepage": "https://therelevancehouse.github.io/first-version-trh/",
+  "homepage": "https://github.com/TheRelevanceHouse/Test-Website-TRH",
   "private": true,
   "dependencies": {
     "@svgator/react-native": "^2.0.1",
