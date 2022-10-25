@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './fonts/norwester.ttf'
 import {Routes, Route} from "react-router-dom"
+import { BrowserRouter as Switch, Link } from "react-router-dom"
 // import Navbar from './navbar'
 import Navbar from './Nav/Navbar';
 import Footer from './footer';

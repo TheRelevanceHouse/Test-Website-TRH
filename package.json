@@ -22,7 +22,7 @@
     "react-native": "^0.68.2",
     "react-native-webview": "^11.22.2",
     "react-router": "^6.3.0",
-    "react-router-dom": "^6.3.0",
+    "react-router-dom": "^6.4.2",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "^5.0.0",
     "reactstrap": "^9.1.1",
