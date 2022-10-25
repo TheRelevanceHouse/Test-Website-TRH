@@ -29,7 +29,7 @@ export default function Hero (props) {
                 
                <p id='hero-line' style={{color:'white', lineHeight:'34px', borderLeft:'3px solid #00A993', fontSize:'1.25em !important'}}>
                &nbsp;&nbsp;&nbsp;EVERY GOOD IDEA FITS ON A POST-IT. <br />
-               &nbsp;&nbsp;&nbsp;IF IT DOESN´T. IT´S NOT A GOOD IDEA, YET.
+               &nbsp;&nbsp;&nbsp;IF IT DOESN´T IT´S NOT A GOOD IDEA, YET.
                </p>
             
           

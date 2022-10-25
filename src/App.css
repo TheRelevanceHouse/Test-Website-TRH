@@ -229,6 +229,7 @@ top: 7%;
     line-height: 1.5;
     border-radius: 0.8rem;
     margin-left: 10px;
+    overflow: auto;
 }
 
 .btn-white {
@@ -242,6 +243,7 @@ top: 7%;
     line-height: 1.5;
     border-radius: 0.8rem;
     margin-left: 10px;
+    overflow: auto;
 }
 
 .btn-green-shade {
@@ -260,6 +262,7 @@ top: 7%;
     line-height: 1.5;
     border-radius: 0.8rem;
     margin-left: 10px;
+    overflow: auto;
 }
 
 #navigation-social {
@@ -400,9 +403,9 @@ background-clip: text;
 }
 
 #column p {
-    top: 40%;
+    top: 65%;
     position: absolute;
-    left: 37%;
+    left: 35%;
     font-family: 'Norwester', sans-serif !important;   
     color: #f2f2f2;
     transition: transform .8s;
@@ -719,6 +722,7 @@ padding-bottom: 30px;
     padding: 1.5rem 2rem;
     font-size: 1.25rem;
     text-decoration: none;
+    overflow: auto;
 }
 
 .btn-green:hover {
@@ -727,6 +731,7 @@ padding-bottom: 30px;
     transform: scale(1.05);
     color: #FFFFFF;
     border-radius: 10px;
+    overflow: auto;
 }
 
 #how-line {
@@ -786,8 +791,9 @@ color: #00a993;
     #clientrow 
     {
     display: none !important;
-  
-
+    }
+    .what-section {
+        background: radial-gradient(61.32% 61.65% at 50% 46%, #152C37 0%, #121212 100%) !important;
     }
 
 
@@ -1151,3 +1157,100 @@ visibility: hidden;
 display: none;
    }
 }
+
+
+.map {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .img-map {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .dots {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .map-dot {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #00A993;
+    border: 1px solid white;
+    text-decoration: none;
+  
+  }
+  
+  .map-dot .text {
+    display: none;
+  }
+  
+  .map-dot:hover .text {
+    display: block;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: -29px;
+    background-color: #00A993;
+    z-index: 1;
+    opacity: 0.7;
+    color: white;
+    padding: 1.5rem;
+    width: 160px;
+  }
+  
+  .map-dot:hover .text:before {
+    content: "";
+    border-bottom: 12px solid transparent;
+    border-right: 14px solid black;
+    border-top: 12px solid transparent;
+    display: block;
+    margin-left: -14px;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .title {
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    margin: 0.5rem;
+    z-index: 1px;
+  }
+  
+  .map-dot::before, .map-dot::after {
+    content: "";
+    position: absolute;
+    top: -2rem;
+    right: -2rem;
+    bottom: -2rem;
+    left: -2rem;
+    border: 1px #00A993;
+    border-radius: inherit;
+    opacity: 1;
+    transform: scale(0);
+    animation: circles 3s infinite;
+  }
+  
+  .map-dot::after {
+    animation-delay: 0.3s;
+  }
+  
+  @media (min-width: 768px) {
+    @keyframes circles {
+      to {
+        opacity: 0;
+        transform: scale(1);
+      }
+    }
+  }

@@ -37,7 +37,7 @@ export default function TeamSection (props) {
                
                 <br/>
                <h4 id="teamheading">
-               MEET OUR TEEM
+               MEET OUR TEAM
                </h4>
                
                 <hr id='teamline' style={{ marginLeft:'0', width:'15%' }} />
@@ -50,7 +50,7 @@ export default function TeamSection (props) {
         <Row style={{textAlign:'center', display:'flex', alignItems:'center'}}>
             <Col xs={12} md={12}>
             <p id="team-section-text">
-            CORE-TEAM
+            CORE TEAM
              </p>
                 </Col>
             
@@ -421,13 +421,13 @@ export default function TeamSection (props) {
         UI/UX Connoisseur
          </p>
          <div id="team-card">
-            {/* <p>
-            Clementina is a full stack digital marketing consultant with a strong expertise and background in online campaigns and Google Ads. She is a Venezuelan living in Europe since 2009 addicted to her work and to finding new challenges.
+            <p>
+            Eraldo is our UX UI designer. Born in Albania but, like many fine goods, was made in Italy. He then received his Master’s in Media Management in Switzerland, where he has since worked as a freelancer and in agencies over his 15+ year career. He speaks 4 languages, is an AI aficionado, and is a music geek!
                 <br/>
                 <br />
                 <b>Fun fact: </b> 
-                She loves to work from random places, so you will always see her with different backgrounds in online meetings.
-            </p>  */}
+               Eraldo firmly believes that anything is possible with AI. 
+            </p> 
            
             
        <a href='https://www.linkedin.com/in/eraldocuko/'> 
@@ -457,7 +457,7 @@ export default function TeamSection (props) {
          </p>
          
          <p id='team-section-text' style={{marginTop:'0px',fontSize:'1em', lineHeight:'30px'}}>
-         MARKETING NINJA
+         CONTENT WHIZ
          </p>
          <div id="team-card">
             <p>
