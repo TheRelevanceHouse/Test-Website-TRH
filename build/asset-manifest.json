@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Test-Website-TRH/static/css/main.46b436f2.css",
-    "main.js": "/Test-Website-TRH/static/js/main.d17f501b.js",
+    "main.css": "/Test-Website-TRH/static/css/main.803fd1d1.css",
+    "main.js": "/Test-Website-TRH/static/js/main.1f64c897.js",
+    "static/media/map.png": "/Test-Website-TRH/static/media/map.b42c41dff0a046fe642f.png",
     "static/media/TEN-MINUTE.pdf": "/Test-Website-TRH/static/media/TEN-MINUTE.a32c1169617aa19644f9.pdf",
     "static/media/FIVE-MINUTE.pdf": "/Test-Website-TRH/static/media/FIVE-MINUTE.897b5475ca7d856a2c1b.pdf",
-    "static/media/map.png": "/Test-Website-TRH/static/media/map.ef7c3eacdef214619f47.png",
     "static/media/numbers.png": "/Test-Website-TRH/static/media/numbers.095f19c628936f0fa232.png",
     "static/media/testimonial.png": "/Test-Website-TRH/static/media/testimonial.f2b8044607f0c1261294.png",
     "static/media/backgroundapproach.png": "/Test-Website-TRH/static/media/backgroundapproach.d3031d8929aed8ce7ed1.png",
@@ -56,11 +56,11 @@
     "static/media/FacebookIconHover.svg": "/Test-Website-TRH/static/media/FacebookIconHover.3f25636f886fe2bcced98ab0a23f1d3f.svg",
     "static/media/Facebook_white.svg": "/Test-Website-TRH/static/media/Facebook_white.fd80da2f80e64e2bea2d7b587fffda99.svg",
     "static/media/arrow.svg": "/Test-Website-TRH/static/media/arrow.25d34143626b8a93c1a605c2cacd3b06.svg",
-    "main.46b436f2.css.map": "/Test-Website-TRH/static/css/main.46b436f2.css.map",
-    "main.d17f501b.js.map": "/Test-Website-TRH/static/js/main.d17f501b.js.map"
+    "main.803fd1d1.css.map": "/Test-Website-TRH/static/css/main.803fd1d1.css.map",
+    "main.1f64c897.js.map": "/Test-Website-TRH/static/js/main.1f64c897.js.map"
   },
   "entrypoints": [
-    "static/css/main.46b436f2.css",
-    "static/js/main.d17f501b.js"
+    "static/css/main.803fd1d1.css",
+    "static/js/main.1f64c897.js"
   ]
 }

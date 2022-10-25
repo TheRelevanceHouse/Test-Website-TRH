@@ -10,10 +10,10 @@ export default function Map (props) {
         
         <div className='map' id="map">
          
-         {/* <img src={map} alt='Relevant' style={{width: '100%', height: 'auto'}}/> */}
+       
          
         <section class="map">
-
+        <br/>
         <img src={map} alt='Relevant' className='img-map' style={{width: '100%', height: '60%'}}/>
         
         
