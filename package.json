@@ -1,7 +1,7 @@
 {
   "name": "test-website-trh",
   "version": "0.1.0",
-  "homepage": "https://github.com/TheRelevanceHouse/Test-Website-TRH",
+  "homepage": "https://therelevancehouse.github.io/Test-Website-TRH/",
   "private": true,
   "dependencies": {
     "@svgator/react-native": "^2.0.1",
@@ -35,9 +35,9 @@
     "yarn": "^1.22.17"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
